@@ -9,6 +9,6 @@ https://datacatalog.urban.org/dataset/mobility-metrics-data-upward-mobility-fram
 
 ## How to Run the Notebook
 1. Clone or download this repository.
-2. Download `11_mobility-metrics_county_longitudinal.csv` from the `data_raw` path.
+2. Download `11_mobility-metrics_county_longitudinal.csv` from the `data` path.
 3. Open the notebook from the `notebooks` path using Jupyter Notebook or Google Colab.
 4. Run all cells from top to bottom to reproduce the visualizations and regression analysis.
