@@ -1,4 +1,4 @@
-# Affordable Housing Supply and Poverty Exposure: A State-Level Mobility Analysis
+# Longitudinal Data Analysis of Housing Supply and Poverty Exposure in the U.S.
 
 ## Summary
 This project looks at how affordable housing availability for low-income households has changed across U.S. states from 2014 to 2023. It also looks at whether housing shortages are associated with higher poxerty exposure. Using state-level averages that were computed from county-level mobility metrics provided by the Urban Institute, I create vizualtions to highlight states with the most servere shortages and linear regression models that test the these relationships. Ultimately, the goal is to address disparities by geographic that may provide as barriers to upward mobility and inform public policy.
