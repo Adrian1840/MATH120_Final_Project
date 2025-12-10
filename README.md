@@ -4,15 +4,17 @@
 This project looks at how affordable housing availability for low-income households has changed across U.S. states from 2014 to 2023. It also looks at whether housing shortages are associated with higher poxerty exposure. Using state-level averages that were computed from county-level mobility metrics provided by the Urban Institute, I create vizualtions to highlight states with the most servere shortages and linear regression models that test the these relationships. Ultimately, the goal is to address disparities by geographic that may provide as barriers to upward mobility and inform public policy.
 
 ## Project Structure
+```text
 python_final_project/
-├── data_raw/                 # Raw, unprocessed data files
-│   ├── 11_mobility-metrics_county_longitudinal_0.csv      # Overall county-lvl mobility metrics
-│   └── 13_mobility-metrics_county_race-share_longitudinal.csv    # Neighborhood racial composition 
-├── data/                    # Cleaned and processed data
-│   └── 11_mobility-metrics_county_longitudinal_0.csv      # (not clean yet)
-│   └── 13_mobility-metrics_county_race-share_longitudinal.csv    # (not clean yet)
-├── notebook.ipynb          # Main analysis notebook
-└── README.md               # This file
+├── data_raw/  # Raw, unprocessed data files
+│   ├── 11_mobility-metrics_county_longitudinal_0.csv  # Overall county-lvl mobility metrics
+│   └── 13_mobility-metrics_county_race-share_longitudinal.csv  # Neighborhood racial composition
+├── data/  # Cleaned and processed data
+│   ├── 11_mobility-metrics_county_longitudinal_0.csv  # (not clean yet)
+│   └── 13_mobility-metrics_county_race-share_longitudinal.csv  # (not clean yet)
+├── notebook.ipynb  # Main analysis notebook
+└── README.md  # This file
+```
 
 ## Requirements
 Python 3.7+
