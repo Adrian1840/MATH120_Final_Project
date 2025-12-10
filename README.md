@@ -12,7 +12,9 @@ python_final_project/
 ├── data/  # Cleaned and processed data
 │   ├── 11_mobility-metrics_county_longitudinal_0.csv  # (not clean yet)
 │   └── 13_mobility-metrics_county_race-share_longitudinal.csv  # (not clean yet)
-├── notebook.ipynb  # Main analysis notebook
+├── notebooks/  # Cleaned and processed data
+│   ├── MATH 120 - Final Project Proposal.pdf #Project Proposal Write-up
+|   ├── MATH120_Final_Project.ipynb # Main analysis notebook
 └── README.md  # This file
 ```
 
@@ -36,37 +38,37 @@ pip install pandas matplotlib numpy jupyter
 ```
 4. Launch Jupyter Notebook:
 ```text
-jupyter notebook notebook.ipynb
+jupyter notebook MATH120_Final_Project.ipynb
 ```
 
 # Google Colab Execution
 1. Open Google Colab
-2. Upload the `MATH120_Final_Project (First Draft).ipynb` file or connect to your GitHub repository
+2. Upload the `MATH120_Final_Project.ipynb` file or connect to your GitHub repository
 3. Run the first cell to automatically set up the environment
 
 ## Data Description
-Sales Data: Contains transaction records with date, product, category, sales amount, region, and customer ID
-Customer Data: Contains customer information including name, age, email, and city
+County-level mobility metrics across 2014–2023: Contains variables related to economic conditions, neighborhood opportunity, and housing stability. 
+
+County-level subgroup data describing neighborhood racial composition over time: Contains county-level statistics broken out by the racial composition of neighborhoods within a county.
 
 ## Analysis Features
 Data loading and cleaning
 Data merging operations
 Summary statistics calculation
-Sales analysis by category and region
+Computed state-by-year averages of poverty exposure and plotted trends for the same top housing-availability states.
 Data visualization with matplotlib
 Modular code organization
 
 ## Key Learning Objectives Demonstrated
-File I/O operations with pandas
-Data cleaning and preprocessing
-Data merging and joining
-Statistical analysis
-Data visualization
-Function creation and modular programming
-Environment compatibility (local vs. cloud)
+File I/O with pandas in a reproducible project structure.
+Working with longitudinal data.
+Data grouping and aggregation (groupby) for state-year summaries.
+Early exploratory visualization using Plotly.
+Data merging/joining to compare mobility dimensions.
+Environment-aware coding (local vs. Google Colab).
 
 ## Usage
-Run all cells in `MATH120_Final_Project (First Draft).ipynb` sequentially. The notebook will:
+Run all cells in `MATH120_Final_Project.ipynb` sequentially. The notebook will:
 
 1. Set up the environment automatically
 2. Load and clean the raw data
