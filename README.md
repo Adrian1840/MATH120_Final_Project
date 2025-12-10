@@ -19,14 +19,14 @@ python_final_project/
 ```
 
 ## Requirements
-Python 3.7+
-pandas
-matplotlib
-numpy
-jupyter (for local execution)
+- Python 3.7+
+- pandas
+- matplotlib
+- numpy
+- jupyter (for local execution)
 
 ## Installation and Setup
-# Local Execution
+### Local Execution
 1. Clone this repository:
 ```text
 git clone https://github.com/Adrian1840/MATH120_Final_Project/tree/main
@@ -41,31 +41,31 @@ pip install pandas matplotlib numpy jupyter
 jupyter notebook MATH120_Final_Project.ipynb
 ```
 
-# Google Colab Execution
+### Google Colab Execution
 1. Open Google Colab
 2. Upload the `MATH120_Final_Project.ipynb` file or connect to your GitHub repository
 3. Run the first cell to automatically set up the environment
 
 ## Data Description
-County-level mobility metrics across 2014–2023: Contains variables related to economic conditions, neighborhood opportunity, and housing stability. 
+- County-level mobility metrics across 2014–2023: Contains variables related to economic conditions, neighborhood opportunity, and housing stability. 
 
-County-level subgroup data describing neighborhood racial composition over time: Contains county-level statistics broken out by the racial composition of neighborhoods within a county.
+- County-level subgroup data describing neighborhood racial composition over time: Contains county-level statistics broken out by the racial composition of neighborhoods within a county.
 
 ## Analysis Features
-Data loading and cleaning
-Data merging operations
-Summary statistics calculation
-Computed state-by-year averages of poverty exposure and plotted trends for the same top housing-availability states.
-Data visualization with matplotlib
-Modular code organization
+- Data loading and cleaning
+- Data merging operations
+- Summary statistics calculation
+- Computed state-by-year averages of poverty exposure and plotted trends for the same top housing-availability states.
+- Data visualization with matplotlib
+- Modular code organization
 
 ## Key Learning Objectives Demonstrated
-File I/O with pandas in a reproducible project structure.
-Working with longitudinal data.
-Data grouping and aggregation (groupby) for state-year summaries.
-Early exploratory visualization using Plotly.
-Data merging/joining to compare mobility dimensions.
-Environment-aware coding (local vs. Google Colab).
+- File I/O with pandas in a reproducible project structure.
+- Working with longitudinal data.
+- Data grouping and aggregation (groupby) for state-year summaries.
+- Early exploratory visualization using Plotly.
+- Data merging/joining to compare mobility dimensions.
+- Environment-aware coding (local vs. Google Colab).
 
 ## Usage
 Run all cells in `MATH120_Final_Project.ipynb` sequentially. The notebook will:
