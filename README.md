@@ -26,8 +26,10 @@ jupyter (for local execution)
 ## Installation and Setup
 # Local Execution
 1. Clone this repository:
-`git clone https://github.com/Adrian1840/MATH120_Final_Project/tree/main
-   cd python_final_project`
+```text
+git clone https://github.com/Adrian1840/MATH120_Final_Project/tree/main
+cd python_final_project
+```
 2. Install required packages (if needed):
 `pip install pandas matplotlib numpy jupyter`
 
@@ -36,7 +38,7 @@ jupyter (for local execution)
 
 # Google Colab Execution
 1. Open Google Colab
-2. pload the notebook.ipynb file or connect to your GitHub repository
+2. Upload the notebook.ipynb file or connect to your GitHub repository
 3. Run the first cell to automatically set up the environment
 
 ## Data Description
