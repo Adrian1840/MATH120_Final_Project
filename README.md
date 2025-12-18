@@ -6,10 +6,10 @@ This project looks at how affordable housing availability for low-income househo
 ## Project Structure
 ```text
 python_final_project/
-├── data_raw/  # Raw, unprocessed data files
-│   ├── 11_mobility-metrics_county_longitudinal_0.zip  # Overall county-lvl mobility metrics(too big, zip file)
 ├── data/  # Cleaned and processed data
 │   ├── county_mobility.csv  # (Removed NA vals to make file smaller, not a zip file)
+├── data_raw/  # Raw, unprocessed data files
+│   ├── 11_mobility-metrics_county_longitudinal_0.zip  # Overall county-lvl mobility metrics(too big, zip file)
 ├── notebooks/
 │   ├── MATH 120 - Final Written Report.pdf #Written Report
 |   ├── MATH120_Final_Project.ipynb # Main analysis notebook
