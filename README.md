@@ -61,7 +61,7 @@ jupyter notebook MATH120_Final_Project.ipynb
 - Exploratory data visualization with Plotly to analyze trends over time and compare states.
 - Identification and comparison of states with systematically low affordable housing availability.
 - Application of simple linear regression (OLS) to examine associations between affordable housing, poverty exposure, and student homelessness.
-- Interpretation of regression outputs in a policy-relevant context.
+- Interpretation of regression outputs in order to inform policy on allocating resources for affordable housing and student homelessness prevention.
 
 ## Usage
 Run all cells in `MATH120_Final_Project.ipynb` sequentially. The notebook will:
