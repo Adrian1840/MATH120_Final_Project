@@ -7,13 +7,11 @@ This project looks at how affordable housing availability for low-income househo
 ```text
 python_final_project/
 ├── data_raw/  # Raw, unprocessed data files
-│   ├── 11_mobility-metrics_county_longitudinal_0.csv  # Overall county-lvl mobility metrics
-│   └── 13_mobility-metrics_county_race-share_longitudinal.csv  # Neighborhood racial composition
+│   ├── 11_mobility-metrics_county_longitudinal_0.zip  # Overall county-lvl mobility metrics(too big, need zip)
 ├── data/  # Cleaned and processed data
-│   ├── 11_mobility-metrics_county_longitudinal_0.csv  # (not clean yet)
-│   └── 13_mobility-metrics_county_race-share_longitudinal.csv  # (not clean yet)
+│   ├── county_mobility.csv  # (Removed NA vals to make file smaller, not a zip file)
 ├── notebooks/  # Cleaned and processed data
-│   ├── MATH 120 - Final Project Proposal.pdf #Project Proposal Write-up
+│   ├── MATH 120 - Final Written Report.pdf #Written Report
 |   ├── MATH120_Final_Project.ipynb # Main analysis notebook
 └── README.md  # This file
 ```
