@@ -56,7 +56,7 @@ jupyter notebook MATH120_Final_Project.ipynb
 
 ## Key Learning Objectives Demonstrated
 - File I/O with pandas in a reproducible project structure
-- Working with longitudinal county- and state-level mobility data across multiple years.
+- Working with longitudinal county-level and state-level mobility data across multiple years.
 - Data grouping and aggregation for state-year summaries
 - Exploratory data visualization with Plotly to analyze trends over time and compare states.
 - Identification and comparison of states with systematically low affordable housing availability.
