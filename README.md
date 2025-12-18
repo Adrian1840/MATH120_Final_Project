@@ -45,8 +45,8 @@ jupyter notebook MATH120_Final_Project.ipynb
 3. Run the first cell to automatically set up the environment
 
 ## Data Description
-- County-level mobility metrics across 2014–2023: Contains variables related to economic conditions, neighborhood opportunity, and housing stability. 
-
+- **County-level mobility metrics** across 2014–2023: Contains variables on housing affordadability/availability, share of poverty exposure, and share of homeless public-school students.
+   
 ## Analysis Features
 - Data loading and cleaning
 - Data wrangling with real longitudinal indicators
