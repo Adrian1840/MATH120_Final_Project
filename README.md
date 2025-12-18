@@ -55,12 +55,13 @@ jupyter notebook MATH120_Final_Project.ipynb
 - Exploratory association testing using scatterplots with fitted regression lines and simple linear regression (OLS).
 
 ## Key Learning Objectives Demonstrated
-- File I/O with pandas in a reproducible project structure.
-- Working with longitudinal data.
-- Data grouping and aggregation (groupby) for state-year summaries.
-- Early exploratory visualization using Plotly.
-- Data merging/joining to compare mobility dimensions.
-- Environment-aware coding (local vs. Google Colab).
+- File I/O with pandas in a reproducible project structure
+- Working with longitudinal county- and state-level mobility data across multiple years.
+- Data grouping and aggregation for state-year summaries
+- Exploratory data visualization with Plotly to analyze trends over time and compare states.
+- Identification and comparison of states with systematically low affordable housing availability.
+- Application of simple linear regression (OLS) to examine associations between affordable housing, poverty exposure, and student homelessness.
+- Interpretation of regression outputs in a policy-relevant context.
 
 ## Usage
 Run all cells in `MATH120_Final_Project.ipynb` sequentially. The notebook will:
