@@ -10,7 +10,7 @@ python_final_project/
 │   ├── 11_mobility-metrics_county_longitudinal_0.zip  # Overall county-lvl mobility metrics(too big, zip file)
 ├── data/  # Cleaned and processed data
 │   ├── county_mobility.csv  # (Removed NA vals to make file smaller, not a zip file)
-├── notebooks/  # Cleaned and processed data
+├── notebooks/
 │   ├── MATH 120 - Final Written Report.pdf #Written Report
 |   ├── MATH120_Final_Project.ipynb # Main analysis notebook
 └── README.md  # This file
