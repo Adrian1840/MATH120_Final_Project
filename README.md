@@ -1,4 +1,4 @@
-# Longitudinal Data Analysis of Afffordable Housing Supply and Poverty Exposure in the U.S.
+# Longitudinal Data Analysis of Housing Supply and Poverty Exposure in the U.S.
 
 ## Project Overview
 This project looks at how affordable housing availability for low-income households has changed across U.S. states from 2014 to 2023. It also looks at whether housing shortages are associated with higher poverty exposure. Using state-level averages that were computed from county-level mobility metrics provided by the Urban Institute, I create vizualtions to highlight states with the most servere shortages and linear regression models that test these relationships. Ultimately, the goal is to address disparities by geographic that may provide as barriers to upward mobility and inform public policy.
