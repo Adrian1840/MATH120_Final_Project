@@ -47,15 +47,12 @@ jupyter notebook MATH120_Final_Project.ipynb
 ## Data Description
 - County-level mobility metrics across 2014–2023: Contains variables related to economic conditions, neighborhood opportunity, and housing stability. 
 
-- County-level subgroup data describing neighborhood racial composition over time: Contains county-level statistics broken out by the racial composition of neighborhoods within a county.
-
 ## Analysis Features
 - Data loading and cleaning
-- Data merging operations
-- Summary statistics calculation
-- Computed state-by-year averages of poverty exposure and plotted trends for the same top housing-availability states.
-- Data visualization with matplotlib
-- Modular code organization
+- Data wrangling with real longitudinal indicators
+- State-by-year aggregation
+- Clear trend visualization using Plotly line charts
+- Exploratory association testing using scatterplots with fitted regression lines and simple linear regression (OLS).
 
 ## Key Learning Objectives Demonstrated
 - File I/O with pandas in a reproducible project structure.
